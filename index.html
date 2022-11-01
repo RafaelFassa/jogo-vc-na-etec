@@ -8,104 +8,42 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="">
-    <title>joguinho</title>
+    <title>Document</title>
 </head>
 
 <body>
-    <header class="masthead mb-auto">
-        <nav class="navbar navbar-expand-lg justify-content-between">
-            <a class="navbar-brand text-white" href="#"><img class="img-fluid bg-img" src="img/Bug Universe (1).png" alt=""></a>
-            <nav class="nav nav-masthead">
-                <a class="nav-link active btn-nav" href="#">Home</a>
-                <a class="nav-link active btn-nav" href="#">Sobre</a>
-                <a class="nav-link active btn-nav" href="#">Vestibulinho</a>
-            </nav>
-        </nav>
-    </header>
-    <div class="jumbotron jumbotron-fluid text-center bg-rafael">
-        <br>
-        <br>
-        <br>
-        <br>
 
-        <center>
-            <main role="main" class="inner cover">
-                <h1 class="cover-heading text-white">BugUniverse</h1>
-                <p class="lead text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, deleniti suscipit distinctio soluta vero, dolorum repudiandae odit dolor ea aliquid deserunt, corrupti explicabo rem nostrum provident? Ipsum totam repellat temporibus.
-                </p>
-                <button class="btn-play" id="btn-play">Jogar Agora</button>
-            </main>
-        </center>
+    <button type="button" class="btn btn-play" data-toggle="modal" data-target="#exampleModalCenter">
+        <i class="fa-solid fa-pause"></i>
+  </button>
 
-        <br>
-        <br>
-        <br>
-    </div>
-    <div class="container-fluid bg-footer">
-        <div class="row">
-            <div class="col-12 col-sm-6 col-md-3">
-                <br>
-                <br>
-                <h3 class=" bg-importante"><b>Links Uteis?</b></h3>
-                <br>
-                <a id="links" href="#"><i class="fa-solid fa-chevron-right ico"></i> Home</a>
-                <br>
-                <a id="links" href="#"><i class="fa-solid fa-chevron-right ico"></i> Sobre</a>
-                <br>
-                <a id="links" href="#"><i class="fa-solid fa-chevron-right ico"></i> Vestibulinho</a>
-                <br>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3">
-                <br>
-                <br>
-                <h3 class=" bg-importante"><b>Teve interresse?</b></h3>
-                <br>
-                <a id="links" href="#"><i class="fa-solid fa-chevron-right ico"></i> Como funciona o curso?</a>
-                <br>
-                <a id="links" href="#"><i class="fa-solid fa-chevron-right ico"></i> Informações Vestibulinho</a>
-                <br>
-                <a id="links" href="#"><i class="fa-solid fa-chevron-right ico"></i> Outros Cursos</a>
-                <br>
-                <a id="links" href="#"><i class="fa-solid fa-chevron-right ico"></i> Informações da escola</a>
-                <br>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3">
-                <br>
-                <br>
-                <h3 class=" bg-importante"><b>Contato</b></h3>
-                <br>
-                <p class="text-light">Rua São Pedro, 300<br> Vila Perin<br> Lins/SP
-                </p>
-                <br>
-                <p class="text-light"><b>WhatsApp:</b> (14) 3523-1217<br><b>Telefone:</b> (14) 3523-4859<br> <b>Email:</b> e148dir@cps.sp.gov.br
-                </p>
-                <br>
-                <br>
-            </div>
-            <div class="col-12 col-sm-6 col-md-3">
-                <br>
-                <br>
-                <img class="img-fluid" src="img/etec-lins-128x75-2.png" alt=""><br>
-                <br>
-                <button type="button" class="btn btn-rede"><i class="fa-brands fa-facebook-f"></i></button>
-                <button type="button" class="btn btn-rede"><i class="fa-brands fa-instagram"></i></button>
-                <br>
-                <br>
-            </div>
-            <div class="col-12 col-sm-12 col-md-12" id="cor">
-                <br>
-                <br>
-                <hr>
-                <p class="text-light text-center">© Copyright UniverseBug. Todos os direitos reservados.</p>
-                <a class="" href="#" id="bg-dens">
-                    <p class="text-light text-center bg-dens">Desenvolvido por: <b>Idiotas</b></p>
-                </a>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content bg-dark bg-shadow">
+                <div class="modal-header">
+                    <h5 class="modal-title text-light a" id="exampleModalCenterTitle">Pause</h5>
+                </div>
+                <div class="modal-body">
+                    <center>
+                        <div class="justify-content-center">
+                            <a class="btn btn-pause" href="index.html" role="button"><i class="fa-solid fa-arrow-rotate-left" id="b"></i></a>
+                            <a class="btn btn-pause" href="#" role="button"><i class="fa-sharp fa-solid fa-house" id="b"></i></a>
+                            <a class="btn btn-pause" href="#" role="button"><i class="fa-brands fa-github" id="b"></i></a>
+                        </div>
+                    </center>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btn btn-volta" data-dismiss="modal"><i class="fa-solid fa-play"></i></button>
+                    <a class="btn btn-pause" href="#" role="button">Informações do curso</a>
+                    <a class="btn btn-pause" href="#" role="button">Informações da escola</a>
+                </div>
             </div>
         </div>
-    </div>
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script src="https://kit.fontawesome.com/8833acc5cb.js" crossorigin="anonymous"></script>
+
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="https://kit.fontawesome.com/8833acc5cb.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
