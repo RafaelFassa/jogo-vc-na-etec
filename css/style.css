@@ -41,6 +41,13 @@ body {
 
 .a {
     font-family: 'Wonder Boy In Monster World', sans-serif;
+    align-items: center;
+}
+
+.a2 {
+    font-family: 'Wonder Boy In Monster World', sans-serif;
+    align-items: center;
+    color: rgb(179, 7, 7);
 }
 
 .btn-pause:hover {
